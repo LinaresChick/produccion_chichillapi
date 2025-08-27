@@ -13,11 +13,11 @@
     <header>
         <nav>
             <a href="">Home</a>
-            <a href="">Contacts</a>
+            <a href="contacts.php">Contacts</a>
             <a href="">Info</a>
         </nav>
         <nav><div class="nav-right">
-            <a href="iniciar_sesion.html" class="login-button">Iniciar sesión</a>
+            <a href="login.html" class="login-button">Iniciar sesión</a>
         </div></nav>
     </header>
 

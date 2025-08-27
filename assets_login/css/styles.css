@@ -11,7 +11,7 @@
   --white-color: hsl(0, 0%, 100%);
   --text-color: hsl(220, 15%, 66%);
   --body-color: hsl(0, 0%, 100%);
-  --container-color: hsl(220, 50%, 97%);
+  --container-color: hsl(223, 25%, 28%);
 
   /*========== Font and typography ==========*/
   /*.5rem = 8px | 1rem = 16px ...*/
@@ -58,6 +58,8 @@ button {
 body {
   background-color: var(--body-color);
   color: var(--text-color);
+  background: linear-gradient(135deg, #0d47a1, #1976d2, #42a5f5, #90caf9);
+  background-attachment: fixed;
 }
 
 input,
@@ -342,12 +344,22 @@ img {
   }
   .login__blob {
     display: block;
-    height: 100vh;
+    height:100vh;
     position: absolute;
     top: 0;
-    right: 0;
+    right: 25%;
   }
   .login__img {
-    transform: translate(0rem, 0rem);
+    transform: translate(-1rem, -3rem);
+  }
+    .login__img1 {
+    transform: translate(3rem, -5rem);
+  }
+    .login__blob1 {
+    display: block;
+    height:100vh;
+    position: absolute;
+    top: 0;
+    right: -100%;
   }
 }
